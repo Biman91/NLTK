@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>meassage classifier</title>
+  </head>
+  <body>
+    <div class="">
+      <h1>Meassage Classifier</h1>
+      <form action="{{ url_for('predict')}}" method="POST">
+        <h4>Enter your message</h4> <br>
+        <textarea name="message" rows="8" cols="80"></textarea><br>
+        <input type="submit" value="predict">
+      </form>
+
+    </div>
+
+  </body>
+</html>
